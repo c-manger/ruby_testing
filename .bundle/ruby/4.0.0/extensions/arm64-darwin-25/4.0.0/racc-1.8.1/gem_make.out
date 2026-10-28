@@ -1,0 +1,18 @@
+current directory: /Users/christopheramanger/odin-repos/ruby_testing/.bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/christopheramanger/odin-repos/ruby_testing/.bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make -j12 DESTDIR\= sitearchdir\=./.gem.20261028-40416-z6byf0 sitelibdir\=./.gem.20261028-40416-z6byf0 clean
+
+current directory: /Users/christopheramanger/odin-repos/ruby_testing/.bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make -j12 DESTDIR\= sitearchdir\=./.gem.20261028-40416-z6byf0 sitelibdir\=./.gem.20261028-40416-z6byf0
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/christopheramanger/odin-repos/ruby_testing/.bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make -j12 DESTDIR\= sitearchdir\=./.gem.20261028-40416-z6byf0 sitelibdir\=./.gem.20261028-40416-z6byf0 install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20261028-40416-z6byf0/racc
+
+current directory: /Users/christopheramanger/odin-repos/ruby_testing/.bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20261028-40416-z6byf0 sitelibdir\=./.gem.20261028-40416-z6byf0 clean

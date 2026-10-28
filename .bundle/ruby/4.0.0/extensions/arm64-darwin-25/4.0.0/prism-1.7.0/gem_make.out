@@ -1,0 +1,44 @@
+current directory: /Users/christopheramanger/odin-repos/ruby_testing/.bundle/ruby/4.0.0/gems/prism-1.7.0/ext/prism
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+checking for prism.h in /Users/christopheramanger/odin-repos/ruby_testing/.bundle/ruby/4.0.0/gems/prism-1.7.0/include... yes
+checking for prism/extension.h in /Users/christopheramanger/odin-repos/ruby_testing/.bundle/ruby/4.0.0/gems/prism-1.7.0/ext... yes
+checking for whether -fvisibility=hidden is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/christopheramanger/odin-repos/ruby_testing/.bundle/ruby/4.0.0/gems/prism-1.7.0/ext/prism
+make -j12 DESTDIR\= sitearchdir\=./.gem.20261028-40416-nouzpz sitelibdir\=./.gem.20261028-40416-nouzpz clean
+
+current directory: /Users/christopheramanger/odin-repos/ruby_testing/.bundle/ruby/4.0.0/gems/prism-1.7.0/ext/prism
+make -j12 DESTDIR\= sitearchdir\=./.gem.20261028-40416-nouzpz sitelibdir\=./.gem.20261028-40416-nouzpz
+compiling api_node.c
+compiling api_pack.c
+compiling extension.c
+compiling ./../../src/diagnostic.c
+compiling ./../../src/encoding.c
+compiling ./../../src/options.c
+compiling ./../../src/prettyprint.c
+compiling ./../../src/serialize.c
+compiling ./../../src/node.c
+compiling ./../../src/prism.c
+compiling ./../../src/pack.c
+compiling ./../../src/regexp.c
+compiling ./../../src/static_literals.c
+compiling ./../../src/token_type.c
+compiling ./../../src/util/pm_buffer.c
+compiling ./../../src/util/pm_char.c
+compiling ./../../src/util/pm_constant_pool.c
+compiling ./../../src/util/pm_integer.c
+compiling ./../../src/util/pm_list.c
+compiling ./../../src/util/pm_memchr.c
+compiling ./../../src/util/pm_newline_list.c
+compiling ./../../src/util/pm_string.c
+compiling ./../../src/util/pm_strncasecmp.c
+compiling ./../../src/util/pm_strpbrk.c
+linking shared-object prism/prism.bundle
+
+current directory: /Users/christopheramanger/odin-repos/ruby_testing/.bundle/ruby/4.0.0/gems/prism-1.7.0/ext/prism
+make -j12 DESTDIR\= sitearchdir\=./.gem.20261028-40416-nouzpz sitelibdir\=./.gem.20261028-40416-nouzpz install
+/usr/bin/install -c -m 0755 prism.bundle ./.gem.20261028-40416-nouzpz/prism
+
+current directory: /Users/christopheramanger/odin-repos/ruby_testing/.bundle/ruby/4.0.0/gems/prism-1.7.0/ext/prism
+make DESTDIR\= sitearchdir\=./.gem.20261028-40416-nouzpz sitelibdir\=./.gem.20261028-40416-nouzpz clean
