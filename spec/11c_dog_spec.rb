@@ -35,17 +35,20 @@ end
 
 describe Dog do
   # Create a subject with your choice of dog name and optional breed/color.
-
+  subject(:spot) { described_class.new('Spot') }
   # Write a test using the second shared_example to test that dog responds to
   # talk ('WOOF!').
-  context '' do
+  context 'when Dog is a child class of Pet' do
+    include_examples 'shared method name'
   end
 
   # remove the 'x' before running this test
-  xit 'is not barking' do
+  it 'is not barking' do
+    expect(spot.barking?).to eql(false)
   end
 
   # remove the 'x' before running this test
-  xit 'is sleeping' do
+  it 'is sleeping' do
+    expect(spot.sleeping?).to eql(true)
   end
 end
